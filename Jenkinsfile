@@ -140,9 +140,6 @@ pipeline {
       }
     }
     stage('Parallel Stages') {
-      when {
-        branch 'main'
-      }
       parallel {
         stage('P1') {
           steps {
@@ -160,6 +157,6 @@ pipeline {
           }
         }
       }
-    }
-  }
-}
+
+
+

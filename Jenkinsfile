@@ -1,14 +1,14 @@
 //pipeline {
 //agent any
-
+//
 //stages {
-
+//
 //    stage('TEST1') {
 //      steps {
 //        echo 'TEST1'
 //      }
 //    }
-
+//
 //    stage('TEST2') {
 //      steps {
 //        echo 'TEST2'
@@ -16,9 +16,9 @@
 //        build job: 'roboshop--ansible', parameters: [string(name: 'COMPONENT', value: 'frontend')]
 //      }
 //    }
-
+//
 //  }
-
+//
 //  post {
 //    fixed {
 //      echo "Hello"
@@ -31,7 +31,7 @@
 //      echo "Common steps"
 //    }
 //  }
-
+//
 //}
 
 

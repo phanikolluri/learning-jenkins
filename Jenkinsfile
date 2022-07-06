@@ -47,6 +47,7 @@ stages {
   stage("One") {
     steps {
       echo "URL = ${SAMPLE_URL}"
+      echo SAMPLE_URL
       }
     }
     
